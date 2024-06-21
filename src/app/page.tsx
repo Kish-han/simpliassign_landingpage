@@ -13,9 +13,9 @@ export default function Home() {
           titleComponent={
             <>
               <h1 className="text-4xl font-semibold text-black dark:text-white">
-                Text here <br />
+                Boost Productivity and Collaboration<br />
                 <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                  Text here
+                  Experience Seamless Workflow Today!
                 </span>
               </h1>
             </>
@@ -34,7 +34,7 @@ export default function Home() {
       <div className="">
         <Lamp />
       </div>
-      <div className="">
+      <div className="mt-20">
         <BentoGrids />
       </div>
     </main>

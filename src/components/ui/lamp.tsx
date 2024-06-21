@@ -14,6 +14,7 @@ export function Lamp() {
           duration: 0.8,
           ease: "easeInOut",
         }}
+        viewport={{ once: true }}
         className="mt-2 bg-black dark:bg-white py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
         About Us
@@ -26,6 +27,7 @@ export function Lamp() {
           duration: 0.8,
           ease: "easeInOut",
         }}
+        viewport={{ once: true }}
         className="mt-2 bg-black dark:bg-white py-4 px-20 bg-clip-text text-center text-lg font-medium tracking-tight text-transparent md:text-2xl"
       >
         We are a team of passionate developers Lorem ipsum dolor sit amet,

@@ -12,6 +12,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
+import { on, once } from "events";
 
 export function BentoGrids() {
   return (
@@ -24,6 +25,7 @@ export function BentoGrids() {
           duration: 0.8,
           ease: "easeInOut",
         }}
+        viewport={{ once: true }}
         className="mt-2 bg-black dark:bg-white py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
         Features
