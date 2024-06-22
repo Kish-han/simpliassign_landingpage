@@ -1,7 +1,7 @@
 import React from "react";
 import Themetoggle from "./theme-toggle";
 import { FloatingNav } from "./ui/floating-navbar";
-import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import { IconHome, IconLayout, IconMessage, IconUser,  } from "@tabler/icons-react";
 
 type Props = {};
 
@@ -9,13 +9,20 @@ const Navbar = (props: Props) => {
   const navItems = [
     {
       name: "Home",
-      link: "/",
+      link: "#home",
       icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "About",
-      link: "/about",
+      link: "#about",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
+      name: "Features",
+      link: "#features",
+      icon: (
+        <IconLayout className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
     },
     {
       name: "Contact",

@@ -30,7 +30,7 @@ export function BentoGrids() {
       >
         Features
       </motion.h1>
-      <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
+      <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem] px-5">
         {items.map((item, i) => (
           <BentoGridItem
             key={i}
